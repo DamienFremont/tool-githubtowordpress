@@ -1,6 +1,7 @@
 A simple batch to convert src to wordpress source:
 
 
+```java
 
   @Test
   public void testMain() throws IOException {
@@ -10,3 +11,5 @@ A simple batch to convert src to wordpress source:
         "-excludeFiles", "target,.settings,.project,.classpath,README.md"};
     Job.main(args);
   }
+```
+  
